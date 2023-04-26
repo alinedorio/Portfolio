@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+nav ul{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 30px;
+    align-items: center;
+    background-color: #FFC40A;
+}
+
+nav ul li{
+    color: #050505;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC40A;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: #050505;
+    text-decoration: none;
+    background-color: #FFC40A;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 930px;
+    background-color: #050505;
+}
+
+main div.text h3{
+    font-size: 50px;
+    color: #F8DE7E;
+}
+
+main div.text h1{
+    font-size: 100px;
+    color: #FFC40A;
+}
+
+main div.text section.buttons{
+    justify-content: space-evenly;
+}
+
+section.buttons{
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+button#button1{
+    background-color: #2F2E2C; 
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+button#button1 a{
+    background-color: #2F2E2C;
+    text-decoration: black;
+    color: white;
+}
+
+button#button2{
+    background-color: #FFC40A;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+button#button2 a{
+    background-color: #FFC40A;
+    text-decoration: black;
+    color: black;
+}
+
+button#button3{
+    background-color: #2F2E2C; 
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+button#button3 a{
+    background-color: #2F2E2C;
+    text-decoration: black;
+    color: white;
+}
+
+button#button1:hover, button#button3:hover{
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+button#button2:hover{
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+div.imagem img{
+    background-color: #FFC40A;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: #FFC40A;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 5%;
+}
+
+#Sobre{
+    background-color: #f8de7e93;
+}
+
+#Sobre h1{
+    padding-top: 2%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100px;
+    font-size: 70px;
+    color: #050505;
+    background-color: #FFC40A;
+}
+
+#Sobre p#introdução{
+    padding: 4%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#Sobre p{
+    width: 75%;
+    padding-bottom: 2%;
+    justify-content: center;
+    text-align: justify;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+#Sobre h3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100px;
+    padding-top: 5%;
+    font-size: 50px;
+    color: #050505;
+}
+
+#Sobre div.linha{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+#Sobre div.linha ul{
+    padding-inline-start: 20%;
+
+}
+
+#Sobre div.linha ul li{
+    font-size: 30px;
+    padding-bottom: 1%;
+}
+
+section#Portfolio{
+    background-color: #2F2E2C;
+}
+
+#Portfolio h1{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 30px;
+    align-items: center;
+    font-size: 70px;
+    padding-top: 7%;
+    padding-bottom: 10%;
+    color: #FFC40A;
+}
+
+#Portfolio div.linha{
+    display: flex;
+    width: 100%;
+    padding-bottom: 2%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#Portfolio img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+}
+
+#Portfolio p{
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    padding: 2px;
+}
+
+section#Contato{
+    background-color: #f8de7e93;
+    padding-bottom: 2%;
+}
+
+#Contato h1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100px;
+    font-size: 70px;
+    color: #050505;
+    background-color: #FFC40A;
+}
+
+#Contato div.linha{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+#Contato img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 140px;
+}
+
+#Contato p{
+    color: #050505;
+    width: 140px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#Contato p a{
+    color: #050505;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+#Contato p a:hover{
+    color: #679BF1;
+}
